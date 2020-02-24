@@ -1,0 +1,34 @@
+{
+  "name": "the-weather",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "node server.js",
+    "build": "next build",
+    "start": "NODE_ENV=production node server.js"
+  },
+  "dependencies": {
+    "@zeit/next-css": "^1.0.1",
+    "@zeit/next-sass": "^1.0.1",
+    "antd": "^3.26.9",
+    "axios": "^0.19.2",
+    "express": "^4.17.1",
+    "isomorphic-unfetch": "^3.0.0",
+    "next": "9.2.1",
+    "next-routes": "^1.4.2",
+    "node-sass": "^4.13.1",
+    "react": "16.12.0",
+    "react-dom": "16.12.0",
+    "react-icons": "^3.9.0",
+    "react-redux": "^7.1.3",
+    "redux": "^4.0.5",
+    "redux-devtools-extension": "^2.13.8",
+    "redux-thunk": "^2.3.0",
+    "styled-components": "^5.0.1"
+  },
+  "devDependencies": {
+    "babel-plugin-import": "^1.13.0",
+    "babel-plugin-styled-components": "^1.10.7",
+    "redux-devtools": "^3.5.0"
+  }
+}
